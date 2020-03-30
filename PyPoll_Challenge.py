@@ -52,6 +52,7 @@ with open(file_to_save, "w") as txt_file:
         f"-------------------------\n")
     print(election_results, end="")
     txt_file.write(election_results)
+    print("County Votes:") 
     ## CHALLENGE Do for county votes here what I do for candidate votes below
     for county in county_votes:
         votes = county_votes[county]
